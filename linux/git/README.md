@@ -1,0 +1,4 @@
+```
+$ ./config.sh [user [email]]
+```
+

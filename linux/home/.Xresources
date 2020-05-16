@@ -1,0 +1,8 @@
+!------------------------------------------------------!
+Xcursor.theme: Vanilla-DMZ-AA
+!------------------------------------------------------!
+#include ".Xresources.d/fonts"
+#include ".Xresources.d/rxvt-unicode"
+#include ".Xresources.d/terminal-themes/monokai"
+!------------------------------------------------------!
+

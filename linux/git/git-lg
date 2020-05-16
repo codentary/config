@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git log $@ \
+        --graph \
+        --pretty='%x01 %Cred%h%Creset %x01 %C(bold blue)%an%Creset %x01 %Cgreen%cr%Creset %x01 %C(yellow)%s %C(magenta)%d%Creset' |\
+column -s $'\001' -t
+

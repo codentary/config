@@ -1,0 +1,33 @@
+! Common config
+URxvt.termName:             rxvt-unicode-256color
+URxvt.geometry:             90x25
+URxvt.reverseVideo:         false
+URxvt.font:                 xft:Hermit:style=medium:pixelsize=14
+URxvt.scrollBar:            true
+URxvt.scrollBar_floating:   true
+URxvt.scrollBar_right:      true
+URxvt.saveLines:            10000
+URxvt.cursorBlink:          true
+URxvt.urgentOnBell:         true
+
+! Extensions
+URxvt.perl-ext-common:      default,matcher,keyboard-select,resize-font
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.keysym.C-minus:       resize-font:smaller
+URxvt.keysym.C-plus:        resize-font:bigger
+URxvt.keysym.C-equal:       resize-font:reset
+
+! Disable ctrl+shift binding
+URxvt.iso14755:             false
+URxvt.iso14755_52:          false
+
+! Clickable urls
+URxvt.url-launcher:         chromium
+URxvt.matcher.button:       1
+
+! Do not scroll with output
+URxvt.scrollTtyOutput:      false
+URxvt.scrollWithBuffer:     true
+URxvt.scrollTtyKeypress:    true
+

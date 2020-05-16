@@ -1,0 +1,8 @@
+[Unit]
+Description=Turn of laptop display completly
+
+[Service]
+ExecStart=/usr/bin/vbetool dpms off
+
+[Install]
+WantedBy=multi-user.target
