@@ -8,11 +8,10 @@ $ sudo apt remove vim # So neovim will be used instead
 
 #### Install plugins
 * [ohmyzsh](https://ohmyz.sh/)
-* [fzf](https://github.com/junegunn/fzf)
-* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* [fzf](https://github.com/junegunn/fzf) (*using git*)
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) (*using git*)
 * [vim-plug](https://github.com/junegunn/vim-plug) (*install for neo vim*)
-* [material-shell](https://github.com/material-shell/material-shell)
-* [powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) OR [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+* [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 #### Config
 ```bash
