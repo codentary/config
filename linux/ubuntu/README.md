@@ -18,7 +18,7 @@ $ sudo apt remove vim # So neovim will be used instead
 # tmux config
 $ (cd ~ && curl -LO https://raw.githubusercontent.com/codentary/config/master/linux/home/.tmux.conf)
 # nvim config
-$ mkdir -p .config/nvim && (cd ~/.config/nvim && curl -LO https://github.com/codentary/config/blob/master/linux/home/.config/nvim/init.vim)
+$ mkdir -p .config/nvim && (cd ~/.config/nvim && curl -LO https://raw.githubusercontent.com/codentary/config/master/linux/home/.config/nvim/init.vim)
 $ vim -c ':PlugInstall' # after configuring nvim, we can install configured the plugins 
 # git config
 $ bash -c "$(curl -fsSL https://raw.githubusercontent.com/codentary/config/master/linux/git/config.sh)"
